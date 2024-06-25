@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.geometry.Pos?>
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<VBox alignment="CENTER" styleClass="background" prefHeight="200.0" prefWidth="800.0" spacing="20" xmlns:fx="http://javafx.com/fxml/1">
+    <ImageView>
+        <image>
+            <Image url="/image/agency.png">
+        </image>
+    </ImageView>
+
+    <Label text="Hi Davey, welcome to the Prog2 Travel Agency" styleClass="heading"/>
+
+    <Hbox alignment="Center" spacing="20">
+        <Button text="Explore Flights" styleClass="button"/>
+        <Button text="Explore Destinations" styleClass="button"/>
+        <Button text="Book a Trip" styleClass="button"/>
+        <Button text="Exit" styleClass="button"/>
+    </Hbox>
+</VBox>

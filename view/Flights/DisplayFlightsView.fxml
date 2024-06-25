@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.Insets?>  
+
+<VBox alignment="CENTER" styleClass="background" prefHeight="700.0" prefWidth="600.0" spacing="20" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DisplayFlightsController">
+    <ImageView>
+        <image>
+            <Image url="/image/flight.png">
+        </image>
+      </ImageView>
+
+      <Label text="Flights" styleClass="heading"/>
+
+      <TableView fx:id="flightTable"/>
+        <columns>
+            <TableColumn fx:id="AirlineClm"  text="Airline">
+            <TableColumn fx:id="FlightNumberClm"  text="Flight Number">
+            <TableColumn fx:id="TakeoffCountryClm"  text="Takeoff Country">
+            <TableColumn fx:id="LandingCountryClm"  text="Landing Country">
+            <TableColumn fx:id="CostClm"  text="Cost">
+
+</VBox>
